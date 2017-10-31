@@ -2,11 +2,11 @@
 
 int main(void) {
 
-	char userInt;
+	float userF;
 	char wait;
 
-	scanf_s(" %c", &userInt);
-	printf("%c", userInt);
+	scanf_s(" %f", &userF);
+	printf("%f", userF);
 
 	scanf_s(" %c", &wait);
 
